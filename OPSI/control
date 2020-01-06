@@ -1,0 +1,31 @@
+[Package]
+version: 1
+depends: 
+incremental: False
+
+[Product]
+type: localboot
+id: ica-easyworship
+name: EasyWorship 2009
+description: EasyWorship 2009 build 1.9
+
+advice: 
+version: 2009.01.09
+priority: 0
+licenseRequired: False
+productClasses: 
+setupScript: setup.opsiscript
+uninstallScript: uninstall.opsiscript
+updateScript: 
+alwaysScript: 
+onceScript: 
+customScript: 
+userLoginScript:
+
+[Changelog]
+ica-easyworship (2009.01.09-1) stable; urgency=low
+
+	* initial: created by opsi-setup-detector
+
+ -- opsisetupdetector.exe <info@uib.de>  1/5/2020 21:44:25
+
